@@ -1,7 +1,9 @@
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
+$(document).ready(function(){
+  $('.btn').click(function(){
+    $('#myForm').show();
+  })
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
+  $('#.cancel').click(function(){
+    $('#myForm').hide();
+  })
+})
